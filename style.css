@@ -1,0 +1,101 @@
+/* slider section css  */
+
+.bg-img{
+    background-image: url("./img//bg-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain; 
+   
+}
+.bg-ex{
+    background-image: url("./img/bg-2.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 200px;
+}
+.ex-height{
+    height: 550px;
+}
+.btn-cc{
+    padding: 10px 20px;
+    color: white;
+    background: black;
+    border-radius: 10px;
+}
+span{
+    padding-left: 5px;
+}
+.l-width p{
+     font-size: 20px;
+     width: 400px;
+}
+
+/* smartphones and laptop catagory css start */
+
+ .ex-p{
+    padding-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .ex-s{
+    box-shadow: 2px 3px 20px  #ada7a7;
+    border-radius: 10px;
+  }
+  .ex-h{
+    height: 400px;
+  }
+  .btn-cc:hover{
+    background-color: #fff;
+    color: #FE1B75;
+    border: 2px solid #FE1B75;
+    transition: .4s;
+  }
+  .w-img img{
+      padding: 30px 40px;
+  }
+
+.border-none{
+  border: none;
+  background-color: white;
+}
+
+/* catagory-section section start  */
+.cat-design{
+  text-align: center;
+  border-bottom:10px solid orange ;
+  width: 150px;
+  margin: auto;
+}
+.ex-m{
+  margin-bottom: 70px;
+  margin-top: 80px;
+}
+ .limg{
+    width: 100px;
+ }
+ .catagory-section img{
+   max-width: 100%;
+ }
+ .ds-img{
+   padding: 10px 20px;
+   box-shadow: -5px 0px 30px 0.5px rgba(127,127,127,0.6);
+   border-radius: 5px 5px 30px 5px;
+   margin: 20px 0;
+   padding: 60px 40px;
+  
+ }
+
+ /* hover part start  */
+
+ .ds-img:hover{
+     background-color:#e78688;
+     transition-duration: .3s;
+     
+     
+      -moz-transform: scale(1.1) translate(-7px, -19px) skew(2deg, -1deg);
+      -webkit-transform: scale(1.1) translate(-7px, -19px) skew(2deg, -1deg);
+      -o-transform: scale(1.1) translate(-7px, -19px) skew(2deg, -1deg);
+      -ms-transform: scale(1.1) translate(-7px, -19px) skew(2deg, -1deg);
+      transform: scale(1.1) translate(-7px, -19px) skew(2deg, -1deg);
+    
+ }
